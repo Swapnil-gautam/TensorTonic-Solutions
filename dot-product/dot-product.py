@@ -13,7 +13,7 @@ def dot_product(x, y):
     #     sum = sum + (i*j)
     # return sum
     
-    x = np.asarray(x)
-    y = np.asarray(y)
+    # x = np.asarray(x)
+    # y = np.asarray(y)
     return np.dot(x,y)
     pass
