@@ -7,9 +7,13 @@ def dot_product(x, y):
     """
     if len(x) != len(y):
         raise ValueError("length of x is not equal to y")
-    sum = 0
+    # sum = 0
     # Write code here
-    for i,j in zip(x,y):
-        sum = sum + (i*j)
-    return sum
+    # for i,j in zip(x,y):
+    #     sum = sum + (i*j)
+    # return sum
+    
+    x = np.asarray(x)
+    y = np.asarray(y)
+    return np.dot(x,y)
     pass
