@@ -6,8 +6,7 @@ def binning(values, num_bins):
     res = []
     w = (max(values) - min(values))/num_bins
     if(w == 0):
-        res = [0]*len(values)
-        return res
+        return [0]*len(values)
     
     mi = min(values)
     for v in values:
