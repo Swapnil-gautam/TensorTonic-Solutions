@@ -13,4 +13,4 @@ def identity_block(x, W1, W2):
     y = np.maximum((h @ (W2.T) + x), 0)
 
     return y
-    pass
+    
